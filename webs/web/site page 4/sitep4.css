@@ -1,0 +1,72 @@
+html{ width:auto; height:auto }
+
+.button{ display: flex; align-items: center; margin-left: 159px; }
+
+header {
+background-color: rgb(28,75,101);
+padding-left: 60px;
+padding-right: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height:96px ;
+}
+
+textarea{display: flex; width: 25%;
+flex-direction: row;}
+body { margin: 0; padding: 0; }
+
+.Plan{
+    width:100%;
+}
+
+aside{
+    float:right;
+}
+.Splash{width: 100%;
+}
+.section2{
+display:flex;
+}
+
+
+
+
+/* ..................................DEBUT fOOTER............................................................ */
+
+
+.navFOOT{ display: flex; justify-content:space-around; background-color: }
+
+.logo{
+display: flex;
+align-items:center;
+margin-top: 20px;
+}
+
+.menu-footer-1{ display: flex; flex-direction: column; }
+.menu-footer-2{display: flex; flex-direction: column; }
+
+.linked{ vertical-align: top; width: 64px; }
+.twit{ width: 64px; }
+
+.Footsoon{ 
+    display: flex; 
+    align-items: top; 
+    justify-content: space-between; 
+    background-color}
+
+
+
+
+.follow{ 
+    display: flex; 
+    align-items: center; }
+
+
+
+@media screen and (max-width: 750px)
+{
+p {    
+        background-color: rgb(39, 204, 24);
+    }
+}
