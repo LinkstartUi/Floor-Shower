@@ -1,0 +1,125 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+}
+header {
+    display: flex;
+    background-color: rgb(28,75,101);
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:96px ;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    margin-top: 20px;
+}
+li { 
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around;
+}
+.nav li {  
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav li a {
+    text-decoration:none;
+    color: #fff;
+}
+
+
+
+
+textarea{display: flex; width: 25%;
+flex-direction: row;}
+body { margin: 0; padding: 0; }
+
+
+aside{
+    float:right
+}
+.section1{display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.section2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.section3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ..................................DEBUT fOOTER............................................................ */
+
+.section4{ 
+    display: flex; 
+    justify-content:space-between; 
+}
+
+.navFOOT{ 
+    display: flex; 
+    justify-content:space-around; 
+}
+.menu-footer-1{ 
+    display: flex; 
+    flex-direction: column; 
+}
+.menu-footer-2 {
+    display: flex; 
+    flex-direction: column; 
+}
+.button{ 
+    display: flex; 
+    align-items: center; 
+}
+.ligne{
+    border-top: 1px solid}
+
+.Footsoon{ 
+    display: flex; 
+    align-items: top; 
+    justify-content: space-between; 
+    }
+.linked{ 
+    vertical-align: top; 
+    width: 64px; 
+}
+.twit{ 
+    width: 64px; 
+}
+.copyright{ 
+    margin-top: 20px; 
+}        
+
+.follow{ 
+    display: flex; 
+    align-items: center; 
+}
+
+
+@media screen and (max-width: 750px)
+{
+    .Plan{display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        justify-content:space-around;
+        width:100%;
+}

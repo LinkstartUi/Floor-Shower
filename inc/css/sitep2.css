@@ -1,0 +1,124 @@
+html
+{ 
+  padding:0;
+  margin:0
+}
+/* ..................................................................Debut Header...................................................................... */
+header 
+{
+  background-color: rgb(28,75,101);
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:96px ;
+}
+.logo
+{
+  display: flex;
+  align-items:center;
+  margin-top: 20px;
+}
+li 
+{ 
+  list-style: none; 
+  display: flex; 
+  justify-content: space-around;
+}
+.nav li 
+{  
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+.nav li a 
+{
+  text-decoration:none;
+  color: #fff;
+}
+/* .section1{ } */
+h2
+{ 
+  text-align: center 
+}
+h3{
+  text-align: center
+}
+/* p */
+.Aside
+{width: 100%;
+}
+
+.section2
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.section3
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* article{} */
+
+.section4 
+{ 
+  display: flex; 
+  justify-content:space-between; 
+}
+
+.navFOOT
+{ 
+  display: flex; 
+  justify-content:space-around; 
+}
+.menu-footer-1{ 
+  display: flex; 
+  flex-direction: column; }
+.menu-footer-2{
+  display: flex; 
+  flex-direction: column; }
+.ligne{
+  border-top: 1px solid}
+
+.button 
+{ 
+  display: flex; 
+  align-items: center;  
+}
+.Footsoon 
+{ 
+  display: flex; 
+  align-items: top; 
+  justify-content: space-between; 
+}
+
+.copyright 
+{ 
+  margin-top: 20px; 
+} 
+.follow
+{ 
+  display: flex; 
+  align-items: center; 
+}
+.linked
+{ 
+  vertical-align: top; 
+  width: 64px; 
+}
+.twit{ 
+  width: 64px; 
+}
+
+/* (min-width: 100px) */
+@media screen and (max-width:500px)
+{
+  body{display: block;}
+}
