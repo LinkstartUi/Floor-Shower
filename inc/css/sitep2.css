@@ -1,5 +1,4 @@
-html
-{ 
+html{ 
   padding:0;
   margin:0
 }
@@ -46,8 +45,11 @@ h3{
   text-align: center
 }
 /* p */
-.Aside
-{width: 100%;
+.Aside1{
+  max-width: 100%;
+}
+.Aside2{
+  max-width: 100%;
 }
 
 .section2
@@ -55,7 +57,6 @@ h3{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  display: flex;
 }
 
 .section3
@@ -64,9 +65,6 @@ h3{
   align-items: center;
   justify-content: space-between;
 }
-
-/* article{} */
-
 .section4 
 { 
   display: flex; 
@@ -116,8 +114,6 @@ h3{
 .twit{ 
   width: 64px; 
 }
-
-/* (min-width: 100px) */
 @media screen and (max-width:500px)
 {
   body{display: block;}
